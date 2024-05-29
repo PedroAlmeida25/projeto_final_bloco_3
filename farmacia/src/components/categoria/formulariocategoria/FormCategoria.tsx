@@ -51,7 +51,7 @@ function FormCategoria() {
 
     } else {
       try {
-        await cadastrar(`/categorias`, categoria, setCategoria)
+        await cadastrar(`/cadcategorias`, categoria, setCategoria)
 
         alert('Categoria cadastrada com sucesso')
 

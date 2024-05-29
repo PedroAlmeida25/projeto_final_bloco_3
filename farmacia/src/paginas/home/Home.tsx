@@ -1,3 +1,6 @@
+import imageminicial from '../../assets/imageminicial_farmacia.png'
+
+
 function Home() {
     return (
         <>
@@ -13,7 +16,7 @@ function Home() {
             </div>
   
             <div className="flex justify-center ">
-              <img src='' alt="" className='w-2/3' />
+              <img src={imageminicial} alt="" className='w-2/3' />
       
             </div>
           </div>
